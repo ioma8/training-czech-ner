@@ -14,8 +14,6 @@ import spacy
 import random
 from spacy.util import minibatch, compounding
 from spacy.training import Example
-import re
-import json
 
 
 def train_ner_spacy(train_data):

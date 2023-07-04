@@ -1,0 +1,7 @@
+name: training-czech-ner
+channels:
+  - defaults
+dependencies:
+  - python=3.9.6
+  - spacy
+prefix: /Users/jakubkolcar/opt/anaconda3/envs/training-czech-ner
