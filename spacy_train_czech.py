@@ -118,6 +118,6 @@ def modify_train_data(train_data):
 
 
 if __name__ == '__main__':
-    train_data = convert_input_file("Czech_Named_Entity_Corpus_1.0/data/xml_simple/named_ent_xml_simple_cleared.txt")
+    train_data = convert_input_file("named_ent_xml_simple_cleared.txt")
     train_data = modify_train_data(train_data)
     train_ner_spacy(train_data)
